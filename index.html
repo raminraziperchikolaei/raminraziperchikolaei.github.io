@@ -3,187 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ramin Raziperchikolaei, a machine learning scientist specializing in recommendation systems, shares research interests and publications in the field of machine leanring." />
-    <title>Ramin Raziperchikolaei,Machine Learning Scientist & Recommendation Systems Expert</title>
+    <title>Ramin Raziperchikolaei - Applied Scientist</title>
     <style>
+        html {
+        scroll-behavior: smooth;
+    }
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
             color: #333;
         }
         header {
-            background: #f4f4f4;
-            display: flex;
-            align-items: center;
+            background-color: #0077b6;
+            color: white;
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            overflow: visible; /* Ensure header content is not cut off */
+            text-align: center;
         }
-        header img {
-            border-radius: 10px;
-            width: 200px; /* Twice as large */
-            height: 300px; /* Rectangular shape */
-            object-fit: cover;
-            margin-right: 20px;
-        }
-        header .header-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        header h1, header p {
-            margin: 0;
-        }
-        header h1 {
-            font-size: 2.5em; /* Slightly larger for emphasis */
-            margin-bottom: 5px;
-        }
-        header p {
-            font-size: 1.5em; /* Slightly larger for emphasis */
-            color: #666;
+        header p{
+            font-size: 25px;
         }
         nav {
             margin: 20px;
             text-align: center;
         }
         nav a {
-            color: #333;
-            text-decoration: none;
             margin: 0 15px;
+            text-decoration: none;
+            color: #0077b6;
+            font-weight: bold;
         }
         section {
-            margin: 20px;
-            padding: 0 10px; /* Add padding to ensure content doesn't touch the edges */
-            overflow: visible; /* Ensure section content is not cut off */
-        }
-        h2 {
-            color: #333;
-        }
-        .publication-list {
-            list-style-type: disc; /* Use bullet points */
-            margin: 0;
-            padding-left: 20px; /* Indent the bullet points */
-        }
-        .publication {
-            margin-bottom: 10px;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         footer {
-            padding: 10px;
+            background-color: #0077b6;
+            color: white;
             text-align: center;
-            margin-top: 50px;
+            padding: 15px;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <!-- Replace 'your_image.jpg' with the path to your image file -->
-    <img src="./Ramin_files/your_image.jpg" alt="Your Name">
-    <div class="header-content">
-        <h1>Ramin Raziperchikolaei</h1>
-        <p>Research Scientist II at Rakuten</p>
-        <p>Email: ramin.raziperchikola [at] rakuten.com</p>
-	<p><a href="https://github.com/raminraziperchikolaei" target="_blank">GitHub</a></p>
-        <p><a href="https://www.linkedin.com/in/ramin-raziperchikolaei-8880ab5a/" target="_blank">LinkedIn</a></p>
+<header style="background-color: #0077b6; color: white; padding: 20px;">
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <img src="orig.jpeg" alt="Profile Picture" style="width:120px; height:120px; border-radius:10%; object-fit:cover; margin-right:20px;">
+        <div style="text-align: left;">
+            <h1 style="margin: 0;">Ramin Raziperchikolaei</h1>
+            <p style="margin: 5px 0 0; font-size: 25px;">Applied Scientist || at Amazon</p>
+        </div>
     </div>
 </header>
-
 <nav>
-    <a href="#bio"> Bio</a>
-    <a href="#research">Research Overview</a>
-    <a href="#publications">Publications</a>
+    <a href="#about">About</a>
+    <a href="#Research Overview">Research Overview</a>
+    <a href="#Publications">Publications</a>
+    <a href="#contact">Contact</a>
 </nav>
 
-<section id="bio">
-    <h2> Bio</h2>
-    <p> I am a research scientist with expertise in machine learning. Since joining Rakuten in 2019, I have focused on recommendation systems and creating models that address real-world challenges, utilizing techniques such as deep learning to enhance the performance</p>
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a research scientist with expertise in machine learning. Since joining Rakuten in 2019, I have focused on recommendation systems and creating models that address real-world challenges, utilizing techniques such as deep learning to enhance the performance
 
-<p>I completed my PhD in the EECS Department of UC Merced, under supervision of Prof. Paul Maglio and Prof. Harish Bhat. I received my MSc in Artificial Intelligence from Sharif University of Technology. 
+I completed my PhD in the EECS Department of UC Merced, under supervision of Prof. Paul Maglio and Prof. Harish Bhat. I received my MSc in Artificial Intelligence from Sharif University of Technology.</p>
 </section>
 
-<section id="research">
+<section id="Research Overview">
     <h2>Research Overview</h2>
     <p>My research is focused on machine learning and its applications in recommendation systems, language models, and computer vision. In my recent projects, I have developed deep models to tackle cold start problem in recommendation systems, deep self-supervised models on tabular data to extract user embeddings, and deep language models to extract item embeddings.</p>
 </section>
-
-<section id="publications">
+<section id="Publications">
     <h2>Publications</h2>
-    <ul class="publication-list">
-        <li><strong>Ramin Raziperchikolaei</strong> and Young-joo chung: "One-class recommendation systems with the hinge pairwise distance loss and orthogonal representations" <b>RecSys</b>, 2024. <a href="https://dl.acm.org/doi/10.1145/3640457.3688189">[External Link]</a> [<a href="./Ramin_files/recsys24.pdf">paper preprint</a>] </li>
-         <li><strong>Ramin Raziperchikolaei</strong> and Young-joo chung: "A Recommendation System Framework to Generalize AutoRec and Neural Collaborative Filtering" <b>ICDMW (workshop)</b>, 2022. <a href="https://ieeexplore.ieee.org/document/10031032" target="_blank">[external link]</a> [<a href="./Ramin_files/neurec.pdf">paper preprint</a>] </li>
-  <li><strong>Ramin Raziperchikolaei</strong> and Young-joo chung: "Simultaneous Learning of the Inputs and Parameters in Neural Collaborative Filtering." <b>BayLearn (workshop)</b>, 2022. <a href="https://baylearn-org.github.io/www/2022/submissions.html" target="_blank">[external link]</a> <a href="https://arxiv.org/abs/2203.07463" target="_blank">[arXiv]</a> </li>
-<li><strong>Ramin Raziperchikolaei</strong> and Guannan Liang and Young-joo chung: "Shared Neural Item Representations for Completely Cold Start Problem" <b>RecSys</b>, 2021. <a href="https://dl.acm.org/doi/abs/10.1145/3460231.3474228" target="_blank">[external link]</a>[<a href="./Ramin_files/RecSys21.pdf">paper preprint</a>] </li>
-<li><strong>Ramin Raziperchikolaei</strong> and Tianyu Li, and Young-joo chung: "Neural Representations in Hybrid Recommender Systems: Prediction versus Regularization" <b>SIGIR</b>, 2021.  [<a href="https://dl.acm.org/doi/10.1145/3404835.3463051">external link</a>] 
-			  [<a href="./Ramin_files/sigir21.pdf">paper preprint</a>] 
-			  [<a href="./Ramin_files/sigir21-slides.pdf"> slides</a>] 
-			  [<a href="./Ramin_files/sigir21-poster.pdf">poster</a>] 
-			  [<a href="https://github.com/rakutentech/nrp">Python code</a>]</li>
-    <li>Harish S. Bhat, Majerle Reeves, <strong>Ramin Raziperchikolaei: </strong> "Estimating Vector Fields from Noisy Time Series" <b>ACSSC</b>, 2020. [<a href="./Ramin_files/asilomar20.pdf">paper preprint</a>] </li>
-        <li><strong>Ramin Raziperchikolaei</strong>, Harish S. Bhat: "A Block Coordinate Descent Proximal Method for Simultaneous Filtering and Parameter Estimation." <b>ICML</b>, 2019 [
-                                <a 
-href="https://icml.cc/Conferences/2019/Schedule?showEvent=4829">external 
-link</a>] [<a 
-href="./Ramin_files/icml19.pdf">paper preprint</a>] [<a 
-href="./Ramin_files/icml19_supp.pdf">Supplementary material</a>][<a 
-href="./Ramin_files/direct.tar.gz">Python code</a>]</li>
-    <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Learning circulant support vector machines for fast image search." <b>ICIP</b>, 2017 [
-                                <a 
-href="https://ieeexplore.ieee.org/document/8296308/">external link</a>] [<a 
-href="./Ramin_files/icip17b.pdf">paper preprint</a>] [<a 
-href="./Ramin_files/icip17b-slides.pdf">slides</a>]</li>
-        <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Learning supervised binary hashing: Optimization vs diversity." <b>ICIP</b>, 2017 [
-                                <a 
-href="https://ieeexplore.ieee.org/document/8296972/">external link</a>] [<a 
-href="./Ramin_files/icip17a.pdf">paper preprint</a>] [<a 
-href="./Ramin_files/icip17a-poster.pdf">poster</a>]</li>
-        <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Learning Independent, Diverse Binary Hash Functions: Pruning and Locality." <b>ICDM</b>, 2016 [
-                                <a 
-href="https://ieeexplore.ieee.org/document/7837968/"> external link </a>] [<a 
-href="./Ramin_files/icdm16.pdf">paper preprint</a>] [<a 
-href="./Ramin_files/icdm16-slides.pdf">slides</a>] [<a 
-href="./Ramin_files/pruning-locality.tar.gz">Matlab code</a>]</li>
-        <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Optimizing affinity-based binary hashing using auxiliary coordinates." <b>NIPS</b>, 2016  [
-                                <a 
-href="https://papers.nips.cc/paper/6281-optimizing-affinity-based-binary-hashing
--using-auxiliary-coordinates">external link</a>] [<a 
-href="./Ramin_files/nips16b.pdf">paper preprint</a>] [<a 
-href="./Ramin_files/nips16b-supp.pdf"> supplementary material</a>] [<a 
-href="https://www.youtube.com/watch?v=KKVoRAM6RxM&feature=youtu.be"> spotlight 
-video</a>] [<a href="./Ramin_files/nips16b-poster.pdf">poster</a>] [<a 
-href="./Ramin_files/code-affhash.tar.gz">Matlab code</a>]</li>
-        <li>Miguel Á. Carreira-Perpiñán, <strong>Ramin Raziperchikolaei: </strong> "An ensemble diversity approach to supervised binary hashing." <b>NIPS</b>, 2016 [
-                                <a 
-href="https://papers.nips.cc/paper/6289-an-ensemble-diversity-approach-to-
-supervised-binary-hashing">external link</a>] [<a 
-href="./Ramin_files/nips16a.pdf">paper preprint</a>] [<a 
-href="./Ramin_files/nips16a-supp.pdf"> supplementary material</a>] [<a 
-href="https://www.youtube.com/watch?v=lTuqoK8fI4E&feature=youtu.be"> spotlight 
-video</a>] [<a href="./Ramin_files/nips16a-poster.pdf">poster</a>] [<a 
-href="./Ramin_files/code-ilht.tar.gz">Matlab code</a>]</li>
-        <li>Miguel Á. Carreira-Perpiñán, <strong>Ramin Raziperchikolaei: </strong> "Hashing with binary autoencoders." <b>CVPR</b>, 2015  [
-                                <a 
-href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7298654&url=http%3A%
-2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7298654">external 
-link</a>] [<a href="./Ramin_files/cvpr15.pdf">paper preprint</a>] [<a 
-href="./Ramin_files/cvpr15-slides.pdf">slides</a>] [<a 
-href="./Ramin_files/cvpr15-poster.pdf">poster</a>] [<a 
-href="./Ramin_files/code-BAhash.tar.gz">Matlab code</a>]</li>
-        <li><strong>Ramin Raziperchikolaei</strong>, Mansour Jamzad: "Visual tracking using D2-clustering and particle filter." <b>ISSPIT</b>, 2012 [
-                                <a 
-href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6621292&tag=1">
-external link</a>] [<a href="./Ramin_files/isspit12.pdf">paper preprint</a>]</li>
-        <li>Ali Bagheri-Khaligh, <strong>Ramin Raziperchikolaei</strong> , Mohsen Ebrahimi Moghaddam:"A new method for shot classification in soccer sports video based on SVM classifier." <b>SSIAI</b>, 2012 [
-                                <a 
-href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6202465">external 
-link</a>] [<a href="./Ramin_files/ssiai12.pdf">paper preprint</a>]</li>
+    <ul>
+        <li><strong>Ramin Raziperchikolaei</strong> and Young-joo Chung: "One-class recommendation systems with the hinge pairwise distance loss and orthogonal representations" RecSys, 2024. <a href="https://dl.acm.org/doi/10.1145/3640457.3688189" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/recsys24.pdf" target="_blank">[paper preprint]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong> and Young-joo Chung: "A Recommendation System Framework to Generalize AutoRec and Neural Collaborative Filtering" ICDMW (workshop), 2022. <a href="https://ieeexplore.ieee.org/document/10031032" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/neurec.pdf" target="_blank">[paper preprint]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong> and Young-joo Chung: "Simultaneous Learning of the Inputs and Parameters in Neural Collaborative Filtering." BayLearn (workshop), 2022. <a href="https://baylearn-org.github.io/www/2022/submissions.html" target="_blank">[External Link]</a> <a href="https://arxiv.org/abs/2203.07463" target="_blank">[arXiv]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Guannan Liang, and Young-joo Chung: "Shared Neural Item Representations for Completely Cold Start Problem" RecSys, 2021. <a href="https://dl.acm.org/doi/abs/10.1145/3460231.3474228" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/RecSys21.pdf" target="_blank">[paper preprint]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Tianyu Li, and Young-joo Chung: "Neural Representations in Hybrid Recommender Systems: Prediction versus Regularization" SIGIR, 2021. <a href="https://dl.acm.org/doi/10.1145/3404835.3463051" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/sigir21.pdf" target="_blank">[paper preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/sigir21-poster.pdf" target="_blank">[Slides]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/sigir21-poster.pdf" target="_blank">[Poster]</a> <a href="https://github.com/rakutentech/nrp" target="_blank">[Python Code]</a></li>
+        <li>Harish S. Bhat, Majerle Reeves, <strong>Ramin Raziperchikolaei</strong>: "Estimating Vector Fields from Noisy Time Series" ACSSC, 2020. <a href="https://raminraziperchikolaei.github.io/Ramin_files/asilomar20.pdf" target="_blank">[Paper Preprint]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Harish S. Bhat: "A Block Coordinate Descent Proximal Method for Simultaneous Filtering and Parameter Estimation." ICML, 2019. <a href="https://icml.cc/Conferences/2019/Schedule?showEvent=4829" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icml19.pdf" target="_blank">[Paper Preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icml19_supp.pdf" target="_blank">[Supplementary Material]</a> <a href="#" target="_blank">[Python Code]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Learning circulant support vector machines for fast image search." ICIP, 2017. <a href="https://ieeexplore.ieee.org/document/8296308" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icip17b.pdf" target="_blank">[Paper Preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icip17b-slides.pdf" target="_blank">[Slides]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Learning supervised binary hashing: Optimization vs diversity." ICIP, 2017. <a href="https://ieeexplore.ieee.org/document/8296972" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icip17a.pdf" target="_blank">[Paper Preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icip17a-poster.pdf" target="_blank">[Poster]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Learning Independent, Diverse Binary Hash Functions: Pruning and Locality." ICDM, 2016. <a href="https://ieeexplore.ieee.org/document/7837968" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icdm16.pdf" target="_blank">[Paper Preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/icdm16-slides.pdf" target="_blank">[Slides]</a> <a href="#" target="_blank">[Matlab Code]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Miguel Á. Carreira-Perpiñán: "Optimizing affinity-based binary hashing using auxiliary coordinates." NIPS, 2016. <a href="https://papers.nips.cc/paper_files/paper/2016/hash/c5ff2543b53f4cc0ad3819a36752467b-Abstract.html" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/nips16b.pdf" target="_blank">[Paper Preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/nips16b-supp.pdf" target="_blank">[Supplementary Material]</a> <a href="https://www.youtube.com/watch?v=KKVoRAM6RxM" target="_blank">[Spotlight Video]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/nips16b-poster.pdf" target="_blank">[Poster]</a> <a href="#" target="_blank">[Matlab Code]</a></li>
+        <li>Miguel Á. Carreira-Perpiñán, <strong>Ramin Raziperchikolaei</strong>: "An ensemble diversity approach to supervised binary hashing." NIPS, 2016. <a href="https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7298654&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7298654" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/cvpr15.pdf" target="_blank">[Paper Preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/cvpr15-slides.pdf" target="_blank">[Supplementary Material]</a> <a href="https://www.youtube.com/watch?v=KKVoRAM6RxM" target="_blank">[Spotlight Video]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/nips16a-poster" target="_blank">[Poster]</a> <a href="#" target="_blank">[Matlab Code]</a></li>
+        <li>Miguel Á. Carreira-Perpiñán, <strong>Ramin Raziperchikolaei</strong>: "Hashing with binary autoencoders." CVPR, 2015. <a href="https://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7298654&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7298654" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/cvpr15.pdf" target="_blank">[Paper Preprint]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/cvpr15-slides.pdf" target="_blank">[Slides]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/cvpr15-poster.pdf" target="_blank">[Poster]</a> <a href="#" target="_blank">[Matlab Code]</a></li>
+        <li><strong>Ramin Raziperchikolaei</strong>, Mansour Jamzad: "Visual tracking using D2-clustering and particle filter." ISSPIT, 2012. <a href="https://ieeexplore.ieee.org/document/6621292" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/isspit12.pdf" target="_blank">[Paper Preprint]</a></li>
+        <li>Ali Bagheri-Khaligh, <strong>Ramin Raziperchikolaei</strong>, Mohsen Ebrahimi Moghaddam: "A new method for shot classification in soccer sports video based on SVM classifier." SSIAI, 2012. <a href="https://ieeexplore.ieee.org/document/6202465" target="_blank">[External Link]</a> <a href="https://raminraziperchikolaei.github.io/Ramin_files/ssiai12.pdf" target="_blank">[Paper Preprint]</a></li>
     </ul>
-    
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: raminrazi67@gmail.com</p>
+    <a href="https://www.linkedin.com/in/ramin-raziperchikolaei-8880ab5a/">LinkedIn</a>
+    <a href="//github.com/raminraziperchikolaei">GitHub</a>
 </section>
 
 <footer>
-
+    &copy; 2025 Ramin Raziperchikolaei. All rights reserved.
 </footer>
 
 </body>

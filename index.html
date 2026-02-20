@@ -28,16 +28,37 @@
         header {
             background-color: #0077b6;
             color: white;
-            padding: 20px;
-            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10%;
+            object-fit: cover;
+            margin-right: 25px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
         }
 
         header p {
-            font-size: 25px;
+            margin: 5px 0 0;
+            font-size: 22px;
         }
 
         nav {
-            margin: 20px;
+            margin: 25px 0;
             text-align: center;
         }
 
@@ -45,40 +66,43 @@
             margin: 0 15px;
             text-decoration: none;
             color: #0077b6;
-            font-weight: bold;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         section {
             max-width: 900px;
             margin: 40px auto;
-            padding: 20px;
+            padding: 25px;
             background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
         }
 
         footer {
             background-color: #0077b6;
             color: white;
             text-align: center;
-            padding: 15px;
-            margin-top: 40px;
+            padding: 20px;
+            margin-top: 50px;
         }
-        /* Make image responsive */
-header img {
-    max-width: 120px;
-    height: auto;
-}
 
-/* Better heading spacing */
-h1 {
-    font-size: 32px;
-    margin: 0;
-}
-
-h2 {
-    margin-bottom: 15px;
-}
- /* ============================= */
+        /* ============================= */
         /* Mobile Responsive Adjustments */
         /* ============================= */
 
@@ -109,7 +133,7 @@ h2 {
             }
 
             h1 {
-                font-size: 26px;
+                font-size: 24px;
             }
 
             header p {
@@ -181,6 +205,7 @@ I completed my PhD in the EECS Department of UC Merced, under supervision of Pro
 </body>
 
 </html>
+
 
 
 

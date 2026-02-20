@@ -63,6 +63,59 @@
             padding: 15px;
             margin-top: 40px;
         }
+        /* Make image responsive */
+header img {
+    max-width: 120px;
+    height: auto;
+}
+
+/* Better heading spacing */
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+ /* ============================= */
+        /* Mobile Responsive Adjustments */
+        /* ============================= */
+
+        @media (max-width: 768px) {
+
+            body {
+                font-size: 18px;
+                line-height: 1.6;
+            }
+
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                margin: 0 0 15px 0;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            header p {
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -128,5 +181,6 @@ I completed my PhD in the EECS Department of UC Merced, under supervision of Pro
 </body>
 
 </html>
+
 
 
